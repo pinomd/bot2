@@ -12,8 +12,8 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *• Langsung Kunjungi Websitenya Aja •*
        
-Ws: https://pinomodules.skom.id
-Ig: https://instagram/pinomodz
+Ws: https://pinomodules.skom.id/cheap-hosting
+Ig: https://instagram.com/pinomodz
 
 *Owner ${conn.user.name}*
 `,
