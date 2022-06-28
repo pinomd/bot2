@@ -1,4 +1,4 @@
-const fetch = require('node-fetch')
+/*const fetch = require('node-fetch')
 let timeout = 120000
 let poin = 500
 let handler = async (m, { conn, usedPrefix }) => {
@@ -17,11 +17,11 @@ Ketik ${usedPrefix}tebu untuk bantuan
 Bonus: ${poin} XP
     `.trim()
   conn.tebakkabupaten[id] = [
-    await conn.sendButtonImg(m.chat, json.url, caption, '', 'Bantuan', '.tebu', m)
-    ,
+    await conn.sendFile(m.chat, json.url, caption, '', 'Bantuan', '.tebu', m)
+    ,await conn.sendFile(m.chat, json.img, 'tebakgame.jpg', caption, m, false,
     json, poin,
     setTimeout(async () => {
-      if (conn.tebakkabupaten[id]) await conn.sendBut(m.chat, `Waktu habis!\nJawabannya adalah *${json.title}*`, '', 'Tebak Kabupaten', '.tebakkabupaten', conn.tebakkabupaten[id][0])
+      if (conn.tebakkabupaten[id]) await conn.sendFile(m.chat, `Waktu habis!\nJawabannya adalah *${json.title}*`, '', 'Tebak Kabupaten', '.tebakkabupaten', conn.tebakkabupaten[id][0])
       delete conn.tebakkabupaten[id]
     }, timeout)
   ]
@@ -30,4 +30,4 @@ handler.help = ['tebakkabupaten']
 handler.tags = ['game']
 handler.command = /^tebakkabupaten/i
 
-module.exports = handler
+module.exports = handler*/
