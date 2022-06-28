@@ -66,7 +66,7 @@ let komcol = ngawur[Math.floor(Math.random() * ngawur.length)]
 }
 handler.help = ['ngawur']
 handler.tags = ['quotes']
-handler.command = /^(bucin)$/i
+handler.command = /^(ngawur)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
