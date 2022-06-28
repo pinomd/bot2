@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-Donasi nya masuk di grup bot aja gausah repot²😁🙏\nLink: https://chat.whatsapp.com/CmlrDN2xl0lCl4eBHLe6IJ
+Gausah donasi gw tau lu ga da duit, masuk grup aja link di bawah🗿\nLink: https://chat.whatsapp.com/CmlrDN2xl0lCl4eBHLe6IJ
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']
