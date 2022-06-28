@@ -1,4 +1,4 @@
-let handler = async (m, { conn }) => {
+*/let handler = async (m, { conn }) => {
     conn.tebakkabupaten = conn.tebakkabupaten ? conn.tebakkabupaten : {}
     let id = m.chat
     if (!(id in conn.tebakkabupaten)) throw false
@@ -7,4 +7,4 @@ let handler = async (m, { conn }) => {
 }
 handler.command = /^tebu$/i
 
-module.exports = handler
+module.exports = handler/*
