@@ -1,1 +1,3 @@
-worker: npm install -g mongodb-realm-cli && npm start
+Default: node . --server
+Main: npm start
+Node: node index.js
