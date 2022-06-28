@@ -1,1 +1,1 @@
-worker: npm start
+worker: npm install -g mongodb-realm-cli && npm start
