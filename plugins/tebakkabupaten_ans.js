@@ -1,4 +1,4 @@
-const similarity = require('similarity')
+/*const similarity = require('similarity')
 const threshold = 0.72
 let handler = m => m
 handler.before = async function (m) {
@@ -21,4 +21,4 @@ handler.before = async function (m) {
 }
 handler.exp = 0
 
-module.exports = handler
+module.exports = handler*/
