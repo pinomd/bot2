@@ -12,7 +12,7 @@ ${cerpen.data}
 }
 handler.help = ['ceritahantu']
 handler.tags = ['internet']
-handler.command = /^cerpen$/i
+handler.command = /^ceritahantu$/i
 handler.limit = true
 
 module.exports = handler
